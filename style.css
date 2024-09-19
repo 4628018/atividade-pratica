@@ -1,0 +1,109 @@
+* {
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, monospace;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    margin: auto;
+    padding: 0;
+}
+
+h1{
+    padding-bottom: 16px;
+}
+
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-weight: bold;   
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    font-weight: bold;
+}
+
+form, img {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #555;
+}
+
+.portifolio {
+    display:flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.projeto img{
+    max-width: 320px;
+    height: auto;
+}
+  
+.descricao-projeto {
+    min-height: 100px;
+}
